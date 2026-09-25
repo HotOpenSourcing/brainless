@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node init && next dev",
     "registry:build": "shadcn build",
-    "build": "shadcn build && next build",
-    "start": "next start",
+    "build": "node init && shadcn build && next build",
+    "start": "node init && next start",
     "lint": "eslint"
   },
   "dependencies": {
